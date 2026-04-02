@@ -1,11 +1,8 @@
 import os
-import random
 from dotenv import load_dotenv
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 load_dotenv()
-8607215101:AAEbD1Z00cJGmbZR-6lj7NiAR2c1OT7BjuwTOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("TOKEN")
 
 cartas = [
     "Cavaleiro: notícias chegando",
